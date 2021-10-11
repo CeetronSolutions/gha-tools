@@ -18,7 +18,7 @@ jobs:
         
     - name: Pull upstream 
       id: sync
-      uses: aormsby/Fork-Sync-With-Upstream-action@v2.2
+      uses: aormsby/Fork-Sync-With-Upstream-action@v3.1
       with:
         upstream_repository: equinor/webviz-core-components
         upstream_branch: master
